@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/java/CTHMS/Features",
-        glue = "CTHMS.Steps",
+        glue = "CTHMS.steps",
         plugin = {"pretty", "html:target/cucumber-reports.html"},
         dryRun = false
 )
